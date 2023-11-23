@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer {
+    display: grid;
+    grid-template-columns: 20rem auto auto auto auto;
+    background-color: black;
+    color: white;
+    padding: 2rem 4rem;
+}
+
+@media (max-width: 768px) {
+    #footer {
+        grid-template-columns: auto;
+    }
+
+}
+
+#footer img {
+    padding: 5px;
+    background-color: white;
+}
+
+#footer h3 {
+    color: white;
+}
+
+#footer ul {
+    padding: 0 5px;
+}
+
+#footer li {
+    list-style-type: none;
+    margin: 1rem 0px;
+    color: gray;
+}
+
+#footer p {
+    color: white;
+}
