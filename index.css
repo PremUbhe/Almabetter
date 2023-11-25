@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+
+
+/* main body  */
+.main-bg{
+    background-color: rgb(244,231,231);
+    padding: 50px;
+}
+.card-bg{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    border-left: 10px solid red;
+    margin: 30px 0px;
+}
+.colu-2{
+    margin: 30px 0px;
+}
+.card-bg p:hover{
+    color: red;
+}
+.line{
+    height: 4px;
+    background-color: red;
+    width: 30%;
+    
+}
+.line-full{
+    height: 10px;
+    background-color:rgb(241,241,241);
+    margin-top: 5px;
+    width: 100%;
+    
+}
+
+.calneder{
+   
+    background-color: linen;
+    border-radius: 10px;
+    
+}
+.mainbutn{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.but2{
+    
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+   
+}
+@media screen and (max-width: 576px) {
+    .img-certi img{
+      height: 100px;
+      width: 90%;
+    }
+  }
+
+  .circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  .circle-1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 30px;
+  }
+
+
