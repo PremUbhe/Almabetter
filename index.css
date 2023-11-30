@@ -88,9 +88,9 @@ body {
 
 .box {
   position: absolute;
-  top: 250px;
-  left: 0;
-  width: 70%;
+  top: 233px;
+  left: 748px;
+  width: 51%;
   height: 300px;
   border-radius: 25px;
   --tw-bg-opacity: 1;
@@ -924,7 +924,7 @@ body {
 
   .btn1 {
     padding: 10px;
-    font-size: 14px;
+    font-size: 12px;
     width: 170px;
     margin: 5px;
   }
@@ -944,7 +944,7 @@ body {
   }
 
   .count {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .count-txt {
